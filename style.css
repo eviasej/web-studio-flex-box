@@ -1,0 +1,203 @@
+:root{
+    --primary-text-color:#212121;
+    --logo-color:#000000;
+    --accent-color:#2196F3;
+    --secondary-text-color:#757575;
+    --background-color:#FFFFFF;
+    --hero-background: #2F303A;
+    --address-footer-color:rgba(255, 255, 255, 0.6);
+
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before
+*::after{
+    box-sizing: inherit;
+}
+
+
+body{   
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    color:var(--primary-text-color) ;
+    background-color: var(--background-color);
+}
+
+a{
+    text-decoration: none;
+}
+ul,
+p,
+h1,
+h2,
+h3,
+li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+/*overall styles*/
+
+.section{
+    outline: dashed 6px lightpink;
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+
+.container{
+    outline: solid 3px palevioletred;
+
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*шапка сайту*/
+
+.logo{
+    font-family: 'Raleway', sans-serif;
+    color: var(--accent-color);
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.logo > span{
+    color: var(--logo-color);
+}
+
+.nav-link,
+.contacts-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.nav-link{
+    color: var(--primary-text-color);
+}
+
+.contacts-link{
+    color: var(--secondary-text-color);
+}
+
+.contacts-lnk:hover,
+.contacts-lnk:focus,
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--accent-color);
+}
+
+/*Hero section*/
+.hero{
+    background-color: var(--hero-background);
+}
+
+h1{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color:var(--background-color);
+    background-color: var(--hero-background);
+
+}
+
+.hero-button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+
+    color:var(--background-color);
+    background-color: var(--accent-color);
+}
+.advantages-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+
+}
+
+.advantages{
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+color:var(--secondary-text-color);
+}
+.titles,
+.names,
+.occupation,
+.hero-button{
+    text-align: center;
+}
+
+.names,
+.occupation{
+    font-size: 16px;
+line-height: 19px;
+}
+
+.titles{
+    font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+}
+.names{
+    font-weight: 500;
+}
+.occupation{
+    font-weight: 400;
+
+color:var(--secondary-text-color);
+}
+footer{
+    background-color: var(--hero-background);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.logo .dif-color{
+    color: var(--background-color);
+}
+.address{
+  color: var(--background-color);
+}
+
+.contacts-link-footer{
+    color: var(--address-footer-color);
+}
+/* portfolio */
+
+.job-title{
+    font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+
+color:var(--primary-text-color);
+}
+
+.job-text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+
+color:var(--secondary-text-color);
+}
