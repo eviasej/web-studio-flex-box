@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "web-studio-flex-box",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "web-studio-flex-box"
+	}
+}
