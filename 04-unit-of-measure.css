@@ -1,0 +1,28 @@
+.text{
+    width: 300px;
+}
+.text::selection{
+    background-color: #922bd1;
+    color: blue;
+}
+
+.text::first-letter{
+    font-size: 409px;
+    color: hotpink;
+}
+.text::first-line{
+    background-color: #bbaaf3;
+}
+html{
+    font-size: 36px;
+}
+body{
+    font-size: 3em;
+
+}
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 0.8em;
+}
